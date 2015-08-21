@@ -14,13 +14,12 @@
 <div id= "columns" >
 	<div id= "side" >
 		<ul>
-			<li> <a href= "http://www...." >Home </a> </li>
+			<li> <%= link_to 'Home', store_url %></li>
 			<li> <a href= "http://www..../faq" >Questions </a> </li>
 			<li> <a href= "http://www..../news" > News </a> </li>
 			<li> <a href= "http://www..../contact" > Contact </a>  </li>
 		</ul>
-		<p style="color: #000052; font-size: 15px; bottom:20px; position: absolute">
-			<%= @time %> </p>
+		<p id="time"> <%= @time %> </p>
 	</div>
 	<div id= "main" >
 		<%= yield %>

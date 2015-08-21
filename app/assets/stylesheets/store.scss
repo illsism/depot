@@ -33,6 +33,9 @@
 			margin-top: 0.5em;
 			margin-bottom: 0.8em;
 		}
+		form, div {
+			display: inline;
+		}
 		.price {
 			color: ffa321;
 			font-weight: bold;
